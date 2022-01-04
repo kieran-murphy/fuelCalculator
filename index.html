@@ -14,8 +14,13 @@
             <h1> Fuel Calculator ✈️</h1>
             <div class="inputs">
                 <label for="min">Nautical Miles:</label>
-                <input type="number" id="min" name="min" placeholder="Enter miles" class="form-control" value=0><br><br>
+                <input type="number" id="min" name="min" placeholder="Enter miles" class="form-control" value=0><br>
+                <select class="form-select" aria-label="Default select example" id="extra" name="cars">
+                    <option value="extra_true" selected>Extra Fuel</option>
+                    <option value="extra_false">No Extra Fuel</option>
+                </select>
             </div>
+            <br>
             <span id=random-number>0</span> <span> gallons 💧</span>
             <br>
             <br>
