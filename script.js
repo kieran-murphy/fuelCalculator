@@ -7,7 +7,6 @@ const extraInput = document.getElementById("extra");
 
 
 function checkValid(){
-
     miles = milesInput.value;
     extra_fuel = extraInput.value;
     if (extra_fuel === 'extra_false') {
@@ -26,8 +25,6 @@ function checkValid(){
             numberGenerator.innerHTML = fuel;
         }
     }
-    
-
 }
 
 

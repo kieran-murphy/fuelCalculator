@@ -1,15 +1,4 @@
-.generator-box {
-    margin-left: 20%;
-    margin-top: 20%;
-}
 
-.form-control {
-    width: 150px;
-}
-
-.form-select {
-    width: 150px;
-}
 
 body {
     background-color: #eee
@@ -17,7 +6,7 @@ body {
 
 .card {
     border: none;
-    border-radius: 10px
+    border-radius: 10px;
 }
 
 .c-details span {
