@@ -5,7 +5,6 @@ const milesInput = document.getElementById("miles");
 const extraInput = document.getElementById("extra");
 
 
-
 function checkValid(){
     miles = milesInput.value;
     extra_fuel = extraInput.value;
@@ -28,5 +27,6 @@ function checkValid(){
 }
 
 
-
 button.addEventListener("click", checkValid);
+
+
