@@ -1,7 +1,6 @@
-
-
 body {
-    background-color: #eee
+    background-color: #eee;
+    font-family: 'Rubik', sans-serif;
 }
 
 .card {
@@ -53,4 +52,8 @@ body {
 
 .text2 {
     color: #a5aec0
+}
+
+#error {
+    color: red;
 }
